@@ -3,8 +3,8 @@ from random import random, randint
 
 from calculations import calculations
 from utils import exceptions
-from utils.exceptions import LessThanZeroException
-print(LessThanZeroException)
+
+
 class TestRepayments(unittest.TestCase):
 
     def test_monthly_repayment_with_negative_value_raises_exception(self):
